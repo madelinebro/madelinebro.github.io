@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+section {
+    padding: 50px;
+}
+
+section:nth-child(even) {
+    background: #eee;
+}
+
+section:nth-child(odd) {
+    background: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
